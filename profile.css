@@ -1,0 +1,40 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    padding-left: 5%;
+    padding-top: 5%;
+    background: paleturquoise;
+  }
+
+  .container {
+    position: left;
+    max-width: 100%;
+    width: 40%;
+    height: 20%;
+    border: 2px solid black;
+    box-shadow: 3px 5px 20px;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+    background: white;
+  }
+
+  .column2{
+    display: flex;
+    padding-left: 15%;
+    column-gap: 50px;
+
+  }
+
+ .column, .column1{
+    display: flex;
+    padding-left: 10%;
+    column-gap: 50px;
+  }
+
+  .data, .socmed{
+    position: center;
+    font-size: 100%;
+    color: blueviolet;
+  }
+
